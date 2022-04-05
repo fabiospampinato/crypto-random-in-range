@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-const {describe} = require ( 'fava' );
-const {default: inRange} = require ( '../dist' );
+import {describe} from 'fava';
+import inRange from '../dist/index.js';
 
 /* MAIN */
 

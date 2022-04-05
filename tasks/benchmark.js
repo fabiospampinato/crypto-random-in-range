@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-const {default: inRange} = require ( '../dist' );
-const benchmark = require ( 'benchloop' );
+import benchmark from 'benchloop';
+import inRange from '../dist/index.js';
 
 /* MAIN */
 
