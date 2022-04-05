@@ -2,7 +2,7 @@
   "name": "crypto-random-in-range",
   "repository": "github:fabiospampinato/crypto-random-in-range",
   "description": "Pick a cryptographically-random integer within a range.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
