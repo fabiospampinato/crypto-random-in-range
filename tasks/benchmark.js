@@ -6,7 +6,7 @@ import inRange from '../dist/index.js';
 
 /* MAIN */
 
-benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
+benchmark.config ({
   iterations: 100_000
 });
 
