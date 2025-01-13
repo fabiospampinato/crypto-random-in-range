@@ -5,13 +5,15 @@ Pick a cryptographically-random integer within a range.
 ## Install
 
 ```sh
-npm install --save crypto-random-in-range
+npm install crypto-random-in-range
 ```
 
 ## Usage
 
 ```ts
 import inRange from 'crypto-random-in-range';
+
+// Let's pick a random number within some ranges
 
 inRange ( 0, 100 ); // => 76n
 inRange ( 0n, 100n ); // => 61n
